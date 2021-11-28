@@ -7,7 +7,7 @@
     <title>Posty</title>
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-200">
     <nav class="p-6 flex justify-between bg-white">
         <ul class="flex items-center">
 
@@ -34,6 +34,9 @@
             <li>
                    <a href="" class="p-3">Register</a>
             </li>
+            <li>
+                <a href="" class="p-3">logout</a>
+         </li>
         </ul>
     </nav>
     @yield('content')
